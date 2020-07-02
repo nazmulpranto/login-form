@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+
+/* --- nav section start --- */
+nav {    
+    background: #24292e !important;
+}
+.octicon {
+    fill: #fff;
+}
+
+.Sign li a {
+    color: #fff !important;
+    padding: 6px 20px !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: #fff;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+}
+
+@media (min-width: 768px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+}
+
+
+.border-white {
+	border-color: #ffffffb3 !important;
+}
+.d-flex .form-control {
+	background-color: #3F4448;
+	border: 1px solid #ced4da00;
+	padding: 10px 15px;
+}
+.bg-dark {
+	background-color: #24292E !important;
+}
+/* --- nav section end --- */
+
+
+.header-section {
+    background: url(../images/simple-codelines.svg),#2b3137;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.header-section .row h1 {
+    font-size: 64px;
+    color: #fff;
+    font-weight: 600;
+    
+}
+.header-section .row h1 span {
+    display: block;
+}
+.header-section .row .github {
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff99;
+
+}
+.signinbox {
+    background-color: #FAFBFC;
+    border-radius: 5px;
+}
+#signupform input {
+    height: 50px;
+}
+.signinbox label {
+    font-weight: bold;
+    color: #24292e;
+    font-size: 14px;
+}
+.signinbox #passwordhelp p{
+    color: #24292e;
+    font-size: 12px;
+}
+.signinbox .btn-lg{
+    padding: 18px 32px;
+    background-color: #2ebc4f;
+    border-color: #2ebc4f;
+    color: #fff;
+    font-size: large;
+    font-weight: bold;
+}
+#signupform .form-control-note {
+    font-size: 12px;
+    color: #6a737d;
+}
+.p-3 {
+    padding: 4rem !important;
+}
+.form-control {
+    background-color: #FAFBFC;
+    border: 1px solid #ced4da;
+    padding: 10px 15px;
+}
